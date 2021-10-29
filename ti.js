@@ -1,15 +1,23 @@
 
 
-AA = await __sc_import_header_components('./p-243e0fdb.js')
+__sc_import_header_components('./p-243e0fdb.js')
 
-BB = await __sc_import_header_components('./p-d733111c.js')
+ __sc_import_header_components('./p-d733111c.js').then(function(){
+    
+    var l = g   
+});
 
-CC = await __sc_import_header_components('./p-8b0dce5c.js')
+ __sc_import_header_components('./p-8b0dce5c.js').then(function(){
+    var e = p;
+    var o = b;
+    
+});
 
-e = CC.p
-o = CC.b
 
-l = BB.g
+// e = CC.p
+// o  = CC.b
+
+// l = BB.g
 
 
 
@@ -496,7 +504,7 @@ e().then(e=>(l(), o([['p-59f35438',
                         dataType: "json",
                         contentType: "application/json; charset=utf-8",
                         success: function(data) {
-                          alert("³É¹¦")
+                          alert("æˆåŠŸ")
                           console.log(data)
                           
                         }
@@ -505,7 +513,10 @@ e().then(e=>(l(), o([['p-59f35438',
 
 
 
-bmak[_ac[184]]()
+setTimeout(function() {
+    
+    bmak[_ac[184]]()
+}, 1000);
 
 
 
